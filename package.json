@@ -1,5 +1,5 @@
 {
-  "name": "CSPre",
+  "name": "cspre",
   "version": "0.1.0",
   "author": "Joshua Davison <joshua@davison.asia>",
   "main": "./cspre.coffee",
