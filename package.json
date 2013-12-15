@@ -2,7 +2,7 @@
   "name": "CSPre",
   "version": "0.1.0",
   "author": "Joshua Davison <joshua@davison.asia>",
-  "main": "cspre.coffee",
+  "main": "./cspre.coffee",
   "engines": {
     "node": ">=0.8.0"
   },
