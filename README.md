@@ -1,0 +1,4 @@
+cspre
+=====
+
+CoffeeScript Preprocessor
