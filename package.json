@@ -1,0 +1,19 @@
+{
+  "name": "CSPre",
+  "version": "0.1.0",
+  "author": "Joshua Davison <joshua@davison.asia>",
+  "main": "cspre.coffee",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "homepage":     "https://github.com/ozjd/cspre",
+  "bugs":         "https://github.com/ozjd/cspre/issues",
+  "repository":   {
+    "type": "git",
+    "url": "git://github.com/ozjd/cspre.git"
+  },
+  "dependencies": {
+    "express": "~3.4.4",
+    "coffee-script": "~1.6.3"
+  }
+}
