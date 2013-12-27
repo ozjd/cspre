@@ -17,7 +17,7 @@ defaultOptions =
 options = {} #This is set when initialised.
 
 createFunction = (contents) ->
-  new Function 'req', 'res', 'next', contents
+  new Function 'req', 'res', 'next', 'console', contents
 
 expressMiddleware = (req, res, next) ->
   cd = path.resolve options.cd
@@ -29,7 +29,7 @@ expressMiddleware = (req, res, next) ->
     if !contents?
       next null #If it's undefined, Let's return!
     else
-      contents(req, res, next);
+      contents(req, res, next, console);
 
 getFile = (p, cb) ->
   fs.stat p, (err, stats) ->
